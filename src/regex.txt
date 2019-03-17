@@ -18,3 +18,11 @@ bunch of gibberish
 11231 3 131331
 test testetwetet
 test123@gmail@gmailhr
+
+
+11 11 1111
+12.03.2019
+11-02-1998
+1998-09-12
+1998\06\10
+01\01\2001
