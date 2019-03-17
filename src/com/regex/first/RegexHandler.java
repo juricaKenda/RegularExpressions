@@ -13,7 +13,7 @@ public class RegexHandler {
 	private Matcher matcher;
 	public static final String mailTracker = "(\\w{1,})([. -]?)(\\w{0,})[@]([A-Za-z]{1,})(\\.)(\\w{1,})";
 	public static final String titleNameTracker = "((Mr)|(mr))(s?)(.?)(\\s?)([A-Za-z]{0,})(\\s?)([A-z]{0,})";
-	
+	public static final String dateTracker ="(([0-9]{2,4})([\\\\.-]{1})){2}([0-9]{2,4})";
 	
 	public RegexHandler(File file) {
 		this.inputString = this.extractFromFile(file);
