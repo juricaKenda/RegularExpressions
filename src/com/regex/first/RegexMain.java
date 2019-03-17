@@ -9,6 +9,7 @@ public class RegexMain {
 		RegexHandler handler = new RegexHandler(new File("src\\regex.txt"));
 		handler.findPattern(RegexHandler.titleNameTracker);
 		handler.findPattern(RegexHandler.mailTracker);
+		handler.findPattern(RegexHandler.dateTracker);
 		
 	}
 }
